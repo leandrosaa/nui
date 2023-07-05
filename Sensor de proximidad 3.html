@@ -1,0 +1,95 @@
+<!-- Tiempo real -->
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+    <link rel=" stylesheet" type="text/css" href="ESTILOS.css">
+    <title>Invernadero</title>
+     <center><img src="LOGO.gif" class="circulo" alt=""></center>
+     <style>
+        .circulo{
+
+            width: 350 ;
+            height: 350px ;
+
+            border-radius: 50%;
+            border: 3px solid #48D1CC;
+        }
+     </style>
+</head>
+<body>
+    <body>
+        <header>
+             <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="Pagina_Principal.html">PAPSIG</a></li>
+                   <li><a href="#">Proyecto</a>
+                        <ul class="submenu">
+                            <li><a href="Descripciones.html">Descripción</a></li>
+
+                            <li><a href="Definiciones.html">Definiciones</a></li>
+                            <li><a href="Servicio tecnico.html">Servicio tecnico</a>
+                        </ul>
+                    </li>
+                    <li><a href="#">Sensor de Proximidad</a>
+                        <ul class="submenu">
+                            <li><a href="Sensor de proximidad 1.html">Funcionamiento</a></li>
+                            <li><a href="Sensor de proximidad 2.html">Registros</a></li>
+                            <li><a href="Sensor de proximidad 3.html">En Tiempo Real</a>
+                        </ul>    
+                    </li>
+                    <li><a href="#">Sensores de Luz</a>
+                        <ul class="submenu">
+                            <li><a href="Sensor de luz 1.html">Funcionamiento</a></li>
+                            <li><a href="Sensor de luz 2.html">Registros</a></li>
+                            <li><a href="Sensor de luz 3.html">En Tiempo Real</a>
+                        </ul>    
+                    </li>
+                    <li><a href="#">Sensores de Humedad</a>
+                        <ul class="submenu">
+                            <li><a href="Sensor de Humedad 1.html">Funcionamiento</a></li>
+                            <li><a href="Sensor de Humedad 2.html">Registros</a></li>
+                            <li><a href="Sensor de Humedad 3.html">En tiempo Real</a></li>
+                        </ul>
+             </nav>
+        </header>
+    </body>
+</body>
+<body>
+    <h1 class="offline">Offline</h1>
+    <table class="table">
+        <thead>
+            <tr>
+            <th scope="col"> </th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Hora</th>
+            <th scope="col">Distancia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>DD/MM/YYYY</td> <!--fecha (DD/MM/YYYY)-->
+            <td>HH:mm:ss</td> <!--hora (HH:mm) [ej: 13:45]-->
+            <td> 0.0 Mts</td> <!--Distancia (0.0 Mts)-->
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+            <td>DD/MM/YYYY</td>
+            <td>HH:mm:ss</td>
+            <td>0.0 Mts</td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>DD/MM/YYYY</td>
+            <td>HH:mm:ss</td>
+            <td> 0.0 Mts</td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+        .offline{
+            color: red;
+        }
+    </style>
+</body>
+</html>
